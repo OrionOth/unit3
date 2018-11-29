@@ -1,2 +1,2 @@
 # unit3
-mmkay so this is just a school project and it is pretty cool, ya ask me
+Simply a school project wherein we(the students) design a webpage professionally as practice for real jobs.
