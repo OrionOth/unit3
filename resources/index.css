@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(255, 220, 103);
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fac100;
+    font-family: sans-serif;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 12px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #e3af02;
+}
+h1 {
+  font-family: verdana;
+}
+h2 {
+  font-family: verdana;
+}
+h3{
+  font-family: verdana;
+}
+h4 {
+  font-family: verdana;
+}
+h5 {
+  font-family: verdana;
+}
+h6 {
+  font-family: verdana;
+}
+p {
+  font-family: verdana;
+}
