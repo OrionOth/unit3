@@ -1,12 +1,12 @@
 body {
-  background-color: rgb(255, 220, 103);
+  background-color: #00ccff;
 }
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #fac100;
+    background-color: #00bbec;
     font-family: sans-serif;
 }
 
@@ -16,33 +16,40 @@ li{
 
 li a{
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 12px;
     text-decoration: none;
 }
 
 li a:hover{
-    background-color: #e3af02;
+    background-color: white;
 }
 h1 {
   font-family: verdana;
+  color: white;
 }
 h2 {
   font-family: verdana;
+  color: white;
 }
 h3{
   font-family: verdana;
+  color: white;
 }
 h4 {
   font-family: verdana;
+  color: white;
 }
 h5 {
   font-family: verdana;
+  color: white;
 }
 h6 {
   font-family: verdana;
+  color: white;
 }
 p {
   font-family: verdana;
+  color: white;
 }
