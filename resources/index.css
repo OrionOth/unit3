@@ -63,7 +63,7 @@ do desire this dropdown to be located after the navbar, though.*/
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1
+  background-color: #f1f1f1;
 }
 
 .dropdown:hover .dropdown-content {
