@@ -25,8 +25,13 @@ li a{
 li a:hover{
     background-color: #8ce6ea;
 }
-/*Thanks to w3schools for this block of code here. I am currently debugging it; the code itself is fine, it just isn't currently compatible with the navbar, the basic design of which is also from w3schools, by the way.*/
-/*So from here down to the next comment is currently broken; I will be continuing to work my hardest to fix this bug. I believe it has to do with the ordering of the elements of the page in index.html, however I couldn't say. I do desire this dropdown after the navbar, though.*/
+/*Thanks to w3schools for this block of code here. I am currently debugging it;
+the code itself is fine, it just isn't currently compatible with the navbar,
+the basic design of which is also from w3schools.*/
+/*So from here down to the next comment is currently broken; I will be
+continuing to work my hardest to fix this bug. I believe it has to do with the
+ordering of the elements of the page in index.html, however I couldn't say. I
+do desire this dropdown to be located after the navbar, though.*/
 .dropbtn {
     background-color: #4CAF50;
     color: white;
@@ -66,7 +71,9 @@ li a:hover{
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
-/*So, from the previous comment is broken, but it is something with the navbar, I do believe, so I will continue debugging.*/
+/*So, the code from the previous comment to this one is broken right now, but
+the problem almost certainly has something to do with the navbar, so I will
+continue debugging in earnest.*/
 h1 {
   font-family: verdana;
   color: white;
