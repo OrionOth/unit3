@@ -1,7 +1,7 @@
 body {
   background-color: #00ccff;
 }
-nav ul{
+ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -10,11 +10,11 @@ nav ul{
     font-family: sans-serif;
 }
 
-nav li{
+li{
     float: left;
 }
 
-nav li a{
+li a{
     display: block;
     color: white;
     text-align: center;
@@ -23,7 +23,7 @@ nav li a{
     text-decoration: none;
 }
 
-nav li a:hover{
+li a:hover{
     background-color: #5DC5F0;
 }
 /*Thanks to w3schools for this block of code here. I am currently debugging it;
@@ -33,7 +33,7 @@ the basic design of which is also from w3schools.*/
 continuing to work my hardest to fix this bug. I believe it has to do with the
 ordering of the elements of the page in index.html, however I couldn't say. I
 do desire this dropdown to be located after the navbar, though.*/
-nav .dropbtn {
+.dropbtn {
     background-color: #00bbec;
     color: white;
     /*padding: 14px 12px;*/ /*Need to change this later, for now, a test. And it is successful.*/
@@ -44,12 +44,12 @@ nav .dropbtn {
     cursor: pointer;
 }
 
-nav .dropdown {
+.dropdown {
     position: relative;
     display: inline-block;
 }
 
-nav .dropdown-content {
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: white;
@@ -58,7 +58,7 @@ nav .dropdown-content {
     z-index: 1;
 }
 
-nav .dropdown-content a {
+.dropdown-content a {
     color: #00ccff;
     padding: 12px 16px;
     font-family: sans-serif;
@@ -66,15 +66,15 @@ nav .dropdown-content a {
     display: block;
 }
 
-nav .dropdown-content a:hover {
+.dropdown-content a:hover {
     background-color: #f1f1f1;
 }
 
-nav .dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: block;
   }
 
-nav .dropdown:hover .dropbtn {
+.dropdown:hover .dropbtn {
     background-color: #5DC5F0;
 }
 /*So, the code from the previous comment to this one is broken right now, but
