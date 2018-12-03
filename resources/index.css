@@ -18,6 +18,7 @@ li a{
     display: block;
     color: white;
     text-align: center;
+    font-size: 16px;
     padding: 14px 12px;
     text-decoration: none;
 }
@@ -38,6 +39,7 @@ do desire this dropdown to be located after the navbar, though.*/
     /*padding: 14px 12px;*/ /*Need to change this later, for now, a test. And it is successful.*/
     font-size: 16px;
     font-family: sans-serif;
+    text-decoration: none;
     border: none;
     cursor: pointer;
 }
