@@ -23,32 +23,89 @@ li a{
 }
 
 li a:hover{
-    background-color: white;
+    background-color: #8ce6ea;
 }
+/*Thanks to w3schools for this block of code here. I am currently debugging it;
+the code itself is fine, it just isn't currently compatible with the navbar,
+the basic design of which is also from w3schools.*/
+/*So from here down to the next comment is currently broken; I will be
+continuing to work my hardest to fix this bug. I believe it has to do with the
+ordering of the elements of the page in index.html, however I couldn't say. I
+do desire this dropdown to be located after the navbar, though.*/
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+/*So, the code from the previous comment to this one is broken right now, but
+the problem almost certainly has something to do with the navbar, so I will
+continue debugging in earnest.*/
 h1 {
   font-family: verdana;
   color: white;
 }
+
 h2 {
   font-family: verdana;
   color: white;
 }
+
 h3{
   font-family: verdana;
   color: white;
 }
+
 h4 {
   font-family: verdana;
   color: white;
 }
+
 h5 {
   font-family: verdana;
   color: white;
 }
+
 h6 {
   font-family: verdana;
   color: white;
 }
+
 p {
   font-family: verdana;
   color: white;
