@@ -23,7 +23,7 @@ li a{
 }
 
 li a:hover{
-    background-color: #8ce6ea;
+    background-color: #5DC5F0;
 }
 /*Thanks to w3schools for this block of code here. I am currently debugging it;
 the code itself is fine, it just isn't currently compatible with the navbar,
@@ -33,10 +33,11 @@ continuing to work my hardest to fix this bug. I believe it has to do with the
 ordering of the elements of the page in index.html, however I couldn't say. I
 do desire this dropdown to be located after the navbar, though.*/
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: #00bbec;
     color: white;
-    padding: 14px 12px;
+    /*padding: 14px 12px;*/ /*Need to change this later, for now, a test. And it is successful.*/
     font-size: 16px;
+    font-family: sans-serif;
     border: none;
     cursor: pointer;
 }
@@ -49,15 +50,16 @@ do desire this dropdown to be located after the navbar, though.*/
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: white;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .dropdown-content a {
-    color: black;
+    color: #00ccff;
     padding: 12px 16px;
+    font-family: sans-serif;
     text-decoration: none;
     display: block;
 }
@@ -71,7 +73,7 @@ do desire this dropdown to be located after the navbar, though.*/
   }
 
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: #5DC5F0;
 }
 /*So, the code from the previous comment to this one is broken right now, but
 the problem almost certainly has something to do with the navbar, so I will
