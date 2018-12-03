@@ -1,7 +1,7 @@
 body {
   background-color: #00ccff;
 }
-ul{
+nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -10,11 +10,11 @@ ul{
     font-family: sans-serif;
 }
 
-li{
+nav li{
     float: left;
 }
 
-li a{
+nav li a{
     display: block;
     color: white;
     text-align: center;
@@ -23,7 +23,7 @@ li a{
     text-decoration: none;
 }
 
-li a:hover{
+nav li a:hover{
     background-color: #5DC5F0;
 }
 /*Thanks to w3schools for this block of code here. I am currently debugging it;
@@ -33,7 +33,7 @@ the basic design of which is also from w3schools.*/
 continuing to work my hardest to fix this bug. I believe it has to do with the
 ordering of the elements of the page in index.html, however I couldn't say. I
 do desire this dropdown to be located after the navbar, though.*/
-.dropbtn {
+nav .dropbtn {
     background-color: #00bbec;
     color: white;
     /*padding: 14px 12px;*/ /*Need to change this later, for now, a test. And it is successful.*/
@@ -44,12 +44,12 @@ do desire this dropdown to be located after the navbar, though.*/
     cursor: pointer;
 }
 
-.dropdown {
+nav .dropdown {
     position: relative;
     display: inline-block;
 }
 
-.dropdown-content {
+nav .dropdown-content {
     display: none;
     position: absolute;
     background-color: white;
@@ -58,7 +58,7 @@ do desire this dropdown to be located after the navbar, though.*/
     z-index: 1;
 }
 
-.dropdown-content a {
+nav .dropdown-content a {
     color: #00ccff;
     padding: 12px 16px;
     font-family: sans-serif;
@@ -66,15 +66,15 @@ do desire this dropdown to be located after the navbar, though.*/
     display: block;
 }
 
-.dropdown-content a:hover {
-  background-color: #f1f1f1;
+nav .dropdown-content a:hover {
+    background-color: #f1f1f1;
 }
 
-.dropdown:hover .dropdown-content {
+nav .dropdown:hover .dropdown-content {
     display: block;
   }
 
-.dropdown:hover .dropbtn {
+nav .dropdown:hover .dropbtn {
     background-color: #5DC5F0;
 }
 /*So, the code from the previous comment to this one is broken right now, but
