@@ -8,6 +8,7 @@ ul{
     overflow: hidden;
     background-color: #00bbec;
     font-family: sans-serif;
+    font-size: 16px;
 }
 
 li{
@@ -18,7 +19,6 @@ li a{
     display: block;
     color: white;
     text-align: center;
-    font-size: 16px;
     padding: 14px 12px;
     text-decoration: none;
 }
@@ -37,11 +37,11 @@ do desire this dropdown to be located after the navbar, though.*/
     background-color: #00bbec;
     color: white;
     /*padding: 14px 12px;*/ /*Need to change this later, for now, a test. And it is successful.*/
-    font-size: 16px;
-    font-family: sans-serif;
     text-decoration: none;
     border: none;
+    padding: 0;
     cursor: pointer;
+    font-size: 16px;
 }
 
 .dropdown {
@@ -60,7 +60,7 @@ do desire this dropdown to be located after the navbar, though.*/
 
 .dropdown-content a {
     color: #00ccff;
-    padding: 12px 16px;
+/*    padding: 12px 16px;*/
     font-family: sans-serif;
     text-decoration: none;
     display: block;
