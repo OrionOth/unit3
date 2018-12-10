@@ -1,9 +1,11 @@
 body {
   background-color: #00ccff;
 }
-/*Thanks to w3schools for this block of code here. I am currently debugging it;
-the code itself is fine, it just isn't currently compatible with the navbar,
-the basic design of which is also from w3schools.*/
+/*Thanks to w3schools for this block of code
+here. I am currently debugging it; the code
+itself is fine, it just isn't currently
+compatible with the navbar, the basic design
+of which is also from w3schools.*/
 .navbar {
     overflow: hidden;
     background-color: #00bbec;
