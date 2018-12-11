@@ -104,7 +104,26 @@ p {
   color: white;
 }
 
-a {
-  underline: none;
+a:link {
+  text-decoration: none;
   color: #e4fdff;
+  font-weight: bold;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #ecfff0; /*Used to be #e4fdff*/
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #99eeff;
+  font-weight: bold;
+}
+
+a:active {
+  text-decoration: underline;
+  color: #4de1ff;
+  font-weight: bold;
 }
