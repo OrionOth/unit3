@@ -103,3 +103,8 @@ p {
   font-family: verdana;
   color: white;
 }
+
+a {
+  underline: none;
+  color: #e4fdff;
+}
