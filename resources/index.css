@@ -112,7 +112,7 @@ p {
 
 .link a:visited {
   text-decoration: none;
-  color: #ecfff0; /*Used to be #e4fdff*/
+  color: #e4fdff;
   font-weight: bold;
 }
 
