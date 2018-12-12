@@ -69,48 +69,19 @@ of which is also from w3schools.*/
     display: block;
 }
 
-h1 {
-  font-family: verdana;
-  color: white;
-}
-
-h2 {
-  font-family: verdana;
-  color: white;
-}
-
-h3{
-  font-family: verdana;
-  color: white;
-}
-
-h4 {
-  font-family: verdana;
-  color: white;
-}
-
-h5 {
-  font-family: verdana;
-  color: white;
-}
-
-h6 {
-  font-family: verdana;
-  color: white;
-}
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 p {
   font-family: verdana;
   color: white;
 }
 
+a:visited.link,
 a:link.link {
-  text-decoration: none;
-  color: #e4fdff;
-  font-weight: bold;
-}
-
-a:visited.link {
   text-decoration: none;
   color: #e4fdff;
   font-weight: bold;
